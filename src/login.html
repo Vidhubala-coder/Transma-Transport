@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login - TransMAA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-bg">
+
+  <div class="login-card">
+    <h1 class="login-heading">Welcome to TransMAA</h1>
+    <h3 class="sub-heading">Login to Continue</h3>
+
+    <input type="text" id="username" placeholder="Enter Username">
+    <input type="email" id="email" placeholder="Enter Email">
+    <input type="password" id="password" placeholder="Enter Password">
+
+    <button onclick="login()">Login</button>
+
+    <div class="links">
+      <a href="register.html">Register</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="driverApplication.html">Driver Application</a>
+    </div>
+  </div>
+
+<script>
+function login() {
+    const password = document.getElementById("password").value;
+
+    if(password === "1234") {   // temporary password check
+        window.location.href = "home.html";
+    } else {
+        alert("Incorrect Password");
+    }
+}
+</script>
+
+</body>
+</html>

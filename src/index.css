@@ -1,0 +1,143 @@
+/* ================= GLOBAL BODY ================= */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f9;
+}
+
+/* ================= BUTTONS ================= */
+
+button {
+  padding: 10px 18px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* ================= INPUTS ================= */
+
+input,
+select {
+  padding: 10px;
+  margin: 8px 0;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* ================= GENERAL CARD STYLE ================= */
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 260px;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+/* ================= LOGIN PAGE ================= */
+
+.login-bg {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #d9c6ff, #b89cff);
+}
+
+/* Login Card */
+.login-card {
+  background: white;
+  padding: 40px;
+  width: 350px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.login-card:hover {
+  transform: scale(1.02);
+}
+
+/* Headings */
+.login-heading {
+  margin-bottom: 5px;
+  color: #5a2ea6;
+}
+
+.sub-heading {
+  margin-bottom: 20px;
+  color: #777;
+}
+
+/* Login Inputs */
+.login-card input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Login Button */
+.login-card button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #7b4dff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-card button:hover {
+  background-color: #5a2ea6;
+}
+
+/* Links */
+.links {
+  margin-top: 15px;
+}
+
+.links a {
+  display: block;
+  margin-top: 5px;
+  text-decoration: underline;
+  color: #7b4dff;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: #4b1f9c;
+}
+
+/* ================= FLOAT ANIMATION ================= */
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
